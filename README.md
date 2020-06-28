@@ -1,9 +1,9 @@
 # Automail
-An automated mail sorting and delivery system, utilizing delivery robots  
+An automated mail sorting and delivery system, utilizing delivery robots.
 
-The system consists of two key components:
-• **Delivery Robots** which take mail items from the mail room and deliver them throughout the building. Each robot can hold one item in its "hands" and one item in its "tube" (a backpack-like container attached to each robot). If a robot is holding two items (i.e., one in its hands and one it its tube) it will always deliver the item in its hands first. An installation of Automail can manage a team of delivery robots of any reasonable size (including zero!).
-• A **Mail Pool subsystem** which holds mail items after their arrival at the building's mail room. The mail pool decides the order in which mail items should be delivered.
+The system consists of two key components:  
+• **Delivery Robots** which take mail items from the mail room and deliver them throughout the building. Each robot can hold one item in its "hands" and one item in its "tube" (a backpack-like container attached to each robot). If a robot is holding two items (i.e., one in its hands and one it its tube) it will always deliver the item in its hands first. An installation of Automail can manage a team of delivery robots of any reasonable size (including zero!).  
+• A **Mail Pool subsystem** which holds mail items after their arrival at the building's mail room. The mail pool decides the order in which mail items should be delivered.  
 
 ### Robot caution mode functionality  
 • The robot can carry fragile items only with the special arms (not in the tube or with its other arms).  
